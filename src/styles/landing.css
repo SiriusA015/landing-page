@@ -1,0 +1,280 @@
+.landing-container {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;  
+    height: 100%;
+}
+.landing-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.landing-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.landing-form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.landing-mark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-right: 50px;
+}
+@media screen and (max-width: 760px) {
+    .landing-mark { 
+        padding-right: 40px;
+    }
+}
+@media screen and (max-width: 560px) {
+    .landing-mark { 
+        padding-right: 20px;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .landing-mark { 
+        padding-right: 10px;
+        gap: 10px;
+    }
+}
+
+.mark-img {
+    width: 85px;
+    height: 92px;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 1100px) {
+    .mark-img {
+        width: 72px;
+        height: 80px;
+    }
+}
+@media screen and (max-width: 760px) {
+    .mark-img {
+        width: 60px;
+        height: 67px;
+    }
+}
+@media screen and (max-width: 560px) {
+    .mark-img {
+        width: 50px;
+        height: 57px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .mark-img {
+        width: 38px;
+        height: 40px;
+    }
+}
+
+.mark-text {
+    width: 400px;
+    height: 70px;
+}
+@media screen and (max-width: 1100px) {
+    .mark-text {
+        width: 380px;
+        height: 60px;
+    }
+}
+@media screen and (max-width: 760px) {
+    .mark-text {
+        width: 290px;
+        height: 50px;
+    }
+}
+@media screen and (max-width: 560px) {
+    .mark-text {
+        width: 240px;
+        height: 40px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .mark-text {
+        width: 220px;
+        height: 30px;
+    }
+}
+
+.form-text {
+    width: 250px;
+    height: 25px;    
+}
+@media screen and (max-width: 960px) {
+    .form-text {
+        width: 250px;
+        height: 22px; 
+    }
+}
+@media screen and (max-width: 560px) {
+    .form-text {
+        width: 230px;
+        height: 20px; 
+    }
+}
+
+.sign-metamask {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 290px;
+    height: 50px;
+    gap: 10px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    .sign-metamask {       
+        width: 390px;
+        height: 55px;
+        gap: 30px;
+        padding-left: 50px;
+    }
+}
+@media screen and (max-width: 560px) {
+    .sign-metamask {       
+        width: 350px;
+        height: 50px;
+        gap: 20px;
+        padding-left: 50px;
+    }
+}
+@media screen and (max-width: 390px) {
+    .sign-metamask {       
+        width: 290px;
+        height: 45px;
+        gap: 20px;
+        padding-left: 30px;
+    }
+}
+
+.sign1-back {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.sign1-back:hover {
+    scale: 1.02;
+    transition: 0.5s;
+}
+
+.metamask {
+    width: 28px;
+    height: 28px;
+    z-index: 10;
+    margin-bottom: 5px;
+}
+@media screen and (max-width: 390px) {
+    .metamask {
+        width: 27px;
+        height: 27px;
+        margin-bottom: 6px;
+    }
+}
+.metamask-text {
+    width: 190px;
+    height: 17px;
+    z-index: 10;
+}
+@media screen and (max-width: 390px) {
+    .metamask-text {
+        width: 170px;
+        height: 15px;   
+    }
+}
+
+.sign-gmail {
+    display: flex;    
+    align-items: center;
+    position: relative;
+    width: 290px;
+    height: 50px;
+    padding-left: 30px;
+    gap: 10px;
+    cursor: pointer;
+}
+@media screen and (max-width: 900px) {
+    .sign-gmail {       
+        width: 390px;
+        height: 52px;
+        gap: 30px;
+        padding-left: 50px;
+    }
+}
+@media screen and (max-width: 560px) {
+    .sign-gmail {       
+        width: 350px;
+        height: 47px;
+        gap: 20px;
+        padding-left: 50px;
+    }
+}
+@media screen and (max-width: 390px) {
+    .sign-gmail {       
+        width: 290px;
+        height: 45px;
+        gap: 20px;
+        padding-left: 33px;
+    }
+}
+
+.sign2-back {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.sign2-back:hover {
+    scale: 1.02;
+    transition: 0.5s;
+}
+
+.gmail {
+    width: 26px;
+    height: 26px;
+    z-index: 10;
+    margin-bottom: 5px;
+}
+@media screen and (max-width: 390px) {
+    .gmail {
+        width: 23px;
+        height: 23px;
+        margin-bottom: 3px;
+    }
+}
+
+.gmail-text {
+    width: 170px;
+    height: 17px;
+    z-index: 10;
+}
+@media screen and (max-width: 390px) {
+    .gmail-text {
+        width: 150px;
+        height: 15px;     
+    }
+}
