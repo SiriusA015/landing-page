@@ -86,31 +86,31 @@
 }
 
 .mark-text {
-    width: 400px;
-    height: 70px;
+    width: 430px;
+    height: 95px;
 }
 @media screen and (max-width: 1100px) {
     .mark-text {
-        width: 380px;
-        height: 60px;
+        width: 400px;
+        height: 80px;
     }
 }
 @media screen and (max-width: 760px) {
     .mark-text {
-        width: 290px;
-        height: 50px;
+        width: 310px;
+        height: 65px;
     }
 }
 @media screen and (max-width: 560px) {
     .mark-text {
-        width: 240px;
-        height: 40px;
+        width: 270px;
+        height: 53px;
     }
 }
 @media screen and (max-width: 360px) {
     .mark-text {
-        width: 220px;
-        height: 30px;
+        width: 240px;
+        height: 40px;
     }
 }
 
